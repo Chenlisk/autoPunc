@@ -8,7 +8,7 @@
     <!-- <script src="https://cdn.bootcss.com/clipboard.js/1.7.1/clipboard.min.js"></script> -->
     <script src="http://me.52fhy.com/doc/clipboardjs/dist/clipboard.min.js"></script>
 
-    <title>自动标点V1.5.6</title>
+    <title>自动标点V1.5.7</title>
 
     <style>
         body {
@@ -124,7 +124,8 @@
     <script>
         //--------------------------------------------------------------------------------//
         // var tURL = "http://192.168.16.232:7786/translator/translate";
-        var tURL = "http://192.168.16.232:7785/translator/translate" //spare port;
+        // var tURL = "http://192.168.16.232:7785/translator/translate" //spare port;
+        var tURL = "http://192.168.16.232:7784/translator/translate" //spare port;
             //--------------------------------------------------------------------------------//
 
         var process = function() {
@@ -241,7 +242,7 @@
 <body>
     <div id="container">
         <h1 id="header">自动标点</h1>
-        <h3 id="header">(<i>V1.5.6</i>)</h3>
+        <h3 id="header">(<i>V1.5.7</i>)</h3>
         <div class='block'>
             <button id="remPunc" onclick="remPunc()">RemovePunc</button>
             <textarea id="sendText" maxlength="65535" placeholder="粘贴文本到这里" onchange="check()"></textarea>
